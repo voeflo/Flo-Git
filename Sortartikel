@@ -1,0 +1,53 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta http-eqiv="Content-Type" content="text/html; charset=utf-8">
+<title>Formular</title>
+</head>
+<body>
+<h1>Bestellung Sportartikel</h1>
+<form name="form1" method="post" enctype="text/plain" action="mailto:fv@florianvoelkel.com">
+	<p>
+		<label for="vorname">Vorname</label>
+			<input type="text" name="prename" id="vorname">
+	</p>
+	<p>
+		<label for="nachname">Nachname</label>
+			<input type="text" name="name" id="Nachname">
+	</p>
+	<p>
+		<label for="adresse">Adresse</label>
+			<input type="text" name="address" id="adresse">
+	</p>
+	<p>
+		<label for="adresse">Sportartikel</label>
+			<select name="products" id="Sportartikel">
+				<option>Fahrrad</option>
+				<option>Skier</option>
+				<option>Inline-Skates</option>
+			</select>
+	</p>
+	<p>Ich bin
+		<br />
+		<input type="radio" name="Geschlecht" value="female" id="weiblich">
+		<label for="weiblich">weiblich</label>
+		<br />
+		<input type="radio" name="Geschlecht" value="male" id="männlich">
+		<label for="weiblich">maennlich</label>
+				<br />
+	</p>
+	<p>Ich moechte in Zukunft Mitteilung erhalten per</p>
+	<p>
+		<input type="checkbox" name="Newsletter" value="gelbepost" id="post">
+		<label for="post">Post</label>
+		<input type="checkbox" name="Newsletter" value="email" id="mail">	
+		<label for="mail">E-mail</label>
+		<br />
+	</p>
+	<p>
+		<input type="submit" name="button" id="sende" value="Senden">
+		<input type="reset" name="button2" id="loesche" value="Zuruecksetzen">
+	</p>
+</form>
+</body>
+</html>
