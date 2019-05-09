@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+<link href="style1.css" rel=stylesheet type="text/css">
+</head>
+<body>
+</br></br></br></br></br></br></br></br></br></br></br></br>
+
+<center>
+<!-- ################################################################################################################################################################################################################### -->
+<!-- CURRENT ISSUES START-->
+<h1>
+  <p><b>Current issues</p>
+    <script>
+        for (var i = 0; i < 215; i++) {
+        document.write("<span style=\"color:#808991; font-size:12px;\">_<\/span>");
+    }
+    </script>
+
+<br/><br/>
+
+  <em><p>Issue 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<p></em>
+  <em><p>Issue 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<p></em>
+  <em><p>Issue 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<p></em>
+
+    <br/></br>
+
+    <p><b>Report Your Issue</p>
+      <script>
+        for (var i = 0; i < 215; i++) {
+        document.write("<span style=\"color:#808991; font-size:12px;\">_<\/span>");
+      }
+      </script>
+
+</br><br/></br>
+</h1>
+
+<!-- ################################################################################################################################################################################################################### -->
+<!-- ################################################################################################################################################################################################################### -->
+<!-- CONTACT FIELD START -->
+
+<h2>
+<center>
+
+<!-- TABEL START FOR CONTACT-FIELD-->
+<table style="width:80%">
+  <tr>
+    <td><label for="input1">Your Name?</label></td>
+    <td><label for="input2">Your Email-Address?</label></td>
+    <td><label for="input3">Your Phone-Number?</label></td>
+    <td><label for="input3">Country You Are In?</label></td>
+  </tr>
+  <tr>
+    <td><input type="text" name="contact_name" class="form-control" id="input1"></td>
+    <td><input type="email" name="contact_email" class="form-control" id="input2"></td>
+    <td><input type="phone" name="contact_phone" class="form-control" id="input3"></td>
+    <td><input type="text" name="contact_name" class="form-control" id="input4"></td>
+  </tr>
+</table>
+</center>
+</h2>
+
+<br/></br>
+
+<!-- ################################################################################################################################################################################################################### -->
+<!-- ################################################################################################################################################################################################################### -->
+<!-- ISSUE FIELD START -->
+
+<h3>
+<!-- ISSUE - ONCHANGE VALUES FOR SCRIPT-->
+<div class="form-group col-lg-4">
+    <label for="input1">Issue</label><br/>
+      <select onchange="yesnoCheck(this);">
+  		    <option value="a">...</option>
+          <option value="b">Desktop / Laptop</option>
+          <option value="c">Mobile Phone / Tablet</option>
+  		    <option value="d">Telephone</option>
+  		    <option value="e">Usermanagement</option>
+          <option value="f">Server</option>
+          <option value="g">Horreum</option>
+  		    <option value="h">Horreum-Administration</option>
+          <option value="i">NLT</option>
+  		    <option value="j">Concilium</option>
+  		    <option value="k">Mediamanagement</option>
+  		    <option value="l">PCD</option>
+  		    <option value="m">POD</option>
+  		    <option value="n">Other Issue</option>
+      </select>
+</div>
+</h3>
+<h4>
+<!-- ################################################################################################################################################################################################################### -->
+<!-- ISSUE - LABELS AND INPUT FIELDS -->
+
+ <!-- Desktop / Laptop -->
+      <div id="ifDesk" style="display: none;"></br></br></br>
+       <form action="mailto:sysops@prime-research.com" method="post" enctype="text/plain">
+       </br>&nbsp;&nbsp;<label for="Desk">Computername</label></br></br>                      <input type="text" id="Desk" name="Computername" size="50"/></br></br>
+       </br>&nbsp;&nbsp;<label for="Desk">Operatingsystem</label></br></br>                   <input type="text" id="Desk" name="Operatingsystem" size="50"/></br></br>
+       </br>&nbsp;&nbsp;<label for="Desk">IP-Address</label></br></br>                        <input type="text" id="Desk" name="IP-Address" size="50"/></br></br>
+       </br>&nbsp;&nbsp;<label for="Desk">Programm</label></br></br>                          <input type="text" id="Desk" name="Programm" size="50" /></br></br>
+       </br>&nbsp;&nbsp;<label for="Desk">Issue</label></br></br>                             <textarea name="Issue" style="width:80%;height:500px;"></textarea></br></br>
+
+    <!--SEND BUTTON -->
+        </br><input type="submit" value="Send" />
+        </div>
+        </form>
+    </div>
+
+<!-- Mobile Phones -->
+    <div id="ifMob" style="display: none;"></br></br></br>
+      <form action="mailto:sysops@prime-research.com" method="post" enctype="text/plain">
+      </br>&nbsp;&nbsp;<label for="Mob">Phone-Brand</label></br></br>                        <input type="text" id="Mob" name="Phone-Brand" size="50"/></br></br>
+      </br>&nbsp;&nbsp;<label for="Mob">Operatingsystem</label></br></br>                    <input type="text" id="Mob" name="Operatingsystem" size="50"/></br></br>
+      </br>&nbsp;&nbsp;<label for="Mob">Issue</label></br></br>                              <textarea name="Issue" style="width:80%;height:500px;"></textarea></br></br>
+
+    <!--SEND BUTTON -->
+      </br><input type="submit" value="Send" />
+      </div>
+      </form>
+    </div>
+
+
+<!-- Telephone -->
+    <div id="ifTel" style="display: none;"></br></br></br>
+        </br>&nbsp;&nbsp;<label for="Tel">Type of Telephone</label></br></br>                  <input type="text" id="Tel" name="Tel" size="50"/></br></br>
+        </br>&nbsp;&nbsp;<label for="Tel">Problem</label></br></br>                            <input type="text" id="Tel" name="Tel" size="50"/></br></br>
+        </br>&nbsp;&nbsp;<label for="Tel">Issue</label></br></br>                              <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+    <!--SEND BUTTON -->
+        <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+        </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+        </div>
+    </div>
+
+<!-- Usermanagement -->
+    <div id="ifUser" style="display: none;"></br></br></br>
+        </br>&nbsp;&nbsp;<label for="User">System you want access to</label></br></br>         <input type="text" id="User" name="User" size="50"/></br></br>
+        </br>&nbsp;&nbsp;<label for="User">Accesslevel</label></br></br>                       <input type="text" id="User" name="User" size="50"/></br></br>
+        </br>&nbsp;&nbsp;<label for="User">Miscellaneous</label></br></br>                     <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+    <!--SEND BUTTON -->
+       <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+       </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+       </div>
+   </div>
+
+<!-- Server -->
+    <div id="ifServer" style="display: none;"></br></br></br>
+       </br>&nbsp;&nbsp;<label for="Server">Server</label></br></br>                           <input type="text" id="Server" name="Server" size="50"/></br></br>
+       </br>&nbsp;&nbsp;<label for="Server">Operating System</label></br></br>                 <input type="text" id="Server" name="Server" size="50"/></br></br>
+       </br>&nbsp;&nbsp;<label for="Server">Issue</label></br></br>                            <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+   <!--SEND BUTTON -->
+      <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+      </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+      </div>
+   </div>
+
+<!-- Horreum -->
+   <div id="ifHorror" style="display: none;"></br></br></br>
+      </br>&nbsp;&nbsp;<label for="Horror">Issue1</label></br></br>                           <input type="text" id="Horror" name="Horror" size="50"/></br></br>
+      </br>&nbsp;&nbsp;<label for="Horror">Issue2</label></br></br>                           <input type="text" id="Horror" name="Horror" size="50"/></br></br>
+      </br>&nbsp;&nbsp;<label for="Horror">Issue3</label></br></br>                           <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+    <!--SEND BUTTON -->
+      <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+      </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+      </div>
+  </div>
+
+<!-- Horreum Administration -->
+   <div id="ifHorrormanage" style="display: none;"></br></br></br>
+     </br>&nbsp;&nbsp;<label for="Horrormanage">Issue1</label></br></br>                      <input type="text" id="Horrormanage" name="Horrormanage" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="Horrormanage">Issue2</label></br></br>                      <input type="text" id="Horrormanage" name="Horrormanage" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="Horrormanage">Issue3</label></br></br>                      <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+  <!--SEND BUTTON -->
+     <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+     </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+     </div>
+  </div>
+
+<!-- NLT-->
+   <div id="ifNLT" style="display: none;"></br></br></br>
+     </br>&nbsp;&nbsp;<label for="NLT">Issue1</label></br></br>                           <input type="text" id="NLT" name="NLT" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="NLT">Issue2</label></br></br>                           <input type="text" id="NLTool" name="NLT" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="NLT">Issue3</label></br></br>                           <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+   <!--SEND BUTTON -->
+    <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+    </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+    </div>
+  </div>
+
+<!-- Concilium -->
+   <div id="ifConci" style="display: none;"></br></br></br>
+     </br>&nbsp;&nbsp;<label for="Conci">Issue1</label></br></br>                           <input type="text" id="Conci" name="Conci" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="Conci">Issue2</label></br></br>                           <input type="text" id="Conci" name="Conci" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="Conci">Issue3</label></br></br>                           <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+  <!--SEND BUTTON -->
+     <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+     </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+     </div>
+   </div>
+
+<!-- Mediamanagement -->
+    <div id="ifMedi" style="display: none;"></br></br></br>
+     </br>&nbsp;&nbsp;<label for="Medi">Issue1</label></br></br>                           <input type="text" id="Medi" name="Medi" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="Medi">Issue2</label></br></br>                           <input type="text" id="Medi" name="Medi" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="Medi">Issue3</label></br></br>                           <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+   <!--SEND BUTTON -->
+     <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+     </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+     </div>
+   </div>
+
+<!-- PCD -->
+   <div id="ifPCD" style="display: none;"></br></br></br>
+     </br>&nbsp;&nbsp;<label for="PCD">Issue1</label></br></br>                           <input type="text" id="PCD" name="PCD" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="PCD">Issue2</label></br></br>                           <input type="text" id="PCD" name="PCD" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="PCD">Issue3</label></br></br>                           <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+  <!--SEND BUTTON -->
+     <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+     </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+     </div>
+   </div>
+
+<!-- POD -->
+   <div id="ifPOD" style="display: none;"></br></br></br>
+     </br>&nbsp;&nbsp;<label for="POD">Issue1</label></br></br>                           <input type="text" id="POD" name="POD" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="POD">Issue2</label></br></br>                           <input type="text" id="POD" name="POD" size="50"/></br></br>
+     </br>&nbsp;&nbsp;<label for="POD">Issue3</label></br></br>                           <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+   <!--SEND BUTTON -->
+     <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+     </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+     </div>
+    </div>
+
+<!-- Other Issue -->
+   <div id="ifOI" style="display: none;"></br></br></br>
+      </br>&nbsp;&nbsp;<label for="OI">Issue1</label></br></br>                           <input type="text" id="OI" name="OI" size="50"/></br></br>
+      </br>&nbsp;&nbsp;<label for="OI">Issue2</label></br></br>                           <input type="text" id="OI" name="OI" size="50"/></br></br>
+      </br>&nbsp;&nbsp;<label for="OI">Issue3</label></br></br>                           <textarea name="textarea" style="width:80%;height:500px;"></textarea></br></br>
+
+   <!--SEND BUTTON -->
+      <div class="form-group col-lg-12"><input type="hidden" name="save" value="contact">
+      </br><form method="post" action="mailto:sysops@prime-research.com" ><input type="submit" value="Send" /></form>
+      </div>
+   </div>
+
+
+<!-- ################################################################################################################################################################################################################### -->
+
+<!-- ISSUE - SCRIPT FOR CHOOSING ONCHANGE VALUES -->
+    <script>
+      function yesnoCheck(that) {
+        //Desktop / Laptop
+            if (that.value == "b") {
+                var x = document.getElementById("ifDesk").style.display = "block";
+                x.reset();
+        }
+
+        //Mobile Phones
+            else if (that.value == "c") {
+                var x = document.getElementById("ifMob").style.display = "block";
+                x.reset();
+        }
+
+        //Telephone
+            else if (that.value == "d") {
+                var x = document.getElementById("ifTel").style.display = "block";
+                x.reset();
+        }
+
+        //Usermanagement
+            else if (that.value == "e") {
+                var x = document.getElementById("ifUser").style.display = "block";
+                x.reset();
+        }
+
+        //Server
+           else if (that.value == "f") {
+                var x = document.getElementById("ifServer").style.display = "block";
+                x.reset();
+        }
+
+        //Horreum
+           else if (that.value == "g") {
+               var x = document.getElementById("ifHorror").style.display = "block";
+               x.reset();
+        }
+
+        //Horreum Administration
+           else if (that.value == "h") {
+               var x = document.getElementById("ifHorrormanage").style.display = "block";
+               x.reset();
+        }
+
+        //NLT
+           else if (that.value == "i") {
+               var x = document.getElementById("ifNLT").style.display = "block";
+               x.reset();
+        }
+
+        //Concilium
+           else if (that.value == "j") {
+               var x = document.getElementById("ifConci").style.display = "block";
+               x.reset();
+        }
+
+        //Mediamanagement
+           else if (that.value == "k") {
+               var x = document.getElementById("ifMedi").style.display = "block";
+               x.reset();
+        }
+
+        //PCD
+           else if (that.value == "l") {
+               var x = document.getElementById("ifPCD").style.display = "block";
+               x.reset();
+        }
+
+        //POD
+           else if (that.value == "m") {
+               var x = document.getElementById("ifPOD").style.display = "block";
+               x.reset();
+        }
+
+        //Other Issue
+           else if (that.value == "n") {
+               var x = document.getElementById("ifPOD").style.display = "block";
+               x.reset();
+        }
+
+       //NO INPUT
+           else {
+              document.getElementById("ifYes").style.display = "none";
+        }
+    }
+    </script>
+</h4>
+
+
+</center>
+ </body>
+</html>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
