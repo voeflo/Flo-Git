@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    margin: 0 auto;
+    max-width: 1280px;
+    background-image: url("logo1.png");
+    /*background-color: #f2f2f2; */
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+body {
+  height: 80%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+	color: #FF0000;
+}
+h1 em {
+  text-align: center;
+  font-size: 15px;
+	color: red;
+}
+/*
+h2 {
+  text-align: center;
+	font-size: 12px;
+	color: #143273;
+}
+h2 td{
+  text-align: center;
+}
+h3 {
+  text-align: center;
+	font-size: 12px;
+	color: #143273;
+}
+h4 {
+  text-align: left;
+	font-size: 12px;
+	color: #143273;
+}
+textarea {
+    border-style:ridge;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+
+blue      143273
+grey      808991
+*/
+
+
+
+/*#jstext1{
+  color: #808991;
+  font-size: 12px;
+}*/
