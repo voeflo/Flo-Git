@@ -1,8 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en"> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title>Elastic Search Cluster Status</title> </head>
- <center><body> <p>Elastic Search Cluster Status</p> </body></center>
+<!--<title>Elastic Search Cluster Status</title>--> </head>
+ <!--<center><body> <p>Elastic Search Cluster Status</p> </body></center>-->
  <meta http-equiv="refresh" content="50" >
 
 <script type="application/javascript">
@@ -28,34 +28,34 @@ for (var i = 0; i < cfhealth.length; i++) {console.log ( cfhealth[i].textContent
     </object>
  </div>
 </td>
-<td>
+<!--<td>
 	<p> ALIEN CLUSTER </p>
   <div class="alien-health">
     <object type="text/html" data="http://kane-public-ip:9200/_cluster/health?pretty" width="800px" height="260px" style="overflow:auto;border:5px ridge green">
     </object>
  </div>
-</td>
+</td>-->
 </tr>
 
 <tr>
  <td>
   <div class="colorful-nodes">
-    <object type="text/html" data="http://hz-c-indigio:9200/_cat/nodes?v" width="800px" height="1000px" style="overflow:auto;border:5px ridge blue">
+    <object type="text/html" data="http://hz-c-indigio:9200/_cat/nodes?v" width="800px" height="950px" style="overflow:auto;border:5px ridge blue">
     </object>
  </div>
 </td>
 <td>
   <div class="starwars-nodes">
-    <object type="text/html" data="http://imperator:9200/_cat/nodes?v" width="800px" height="1000px" style="overflow:auto;border:5px ridge red">
+    <object type="text/html" data="http://imperator:9200/_cat/nodes?v" width="800px" height="950px" style="overflow:auto;border:5px ridge red">
     </object>
  </div>
 </td>
-<td>
+<!--<td>
   <div class="alien-nodes">
     <object type="text/html" data="http://kane-public-ip:9200/_cat/nodes?v" width="800px" height="1000px" style="overflow:auto;border:5px ridge green">
     </object>
  </div>
-</td>
+</td>-->
 </tr>
 </table>
 </center>
